@@ -1,6 +1,6 @@
 (function(){
 
-    var config = {
+    let config = {
         apiKey: "AIzaSyDHnvGOavbHG9Z2sJIqIECX7ZGqGez3hYw",
         authDomain: "rpdies-sample-app.firebaseapp.com",
         databaseURL: "https://rpdies-sample-app.firebaseio.com",
@@ -8,16 +8,17 @@
         storageBucket: "rpdies-sample-app.appspot.com",
         messagingSenderId: "569042443468"
     };
-    var defaultApp = firebase.initializeApp(config);
-    var rootRef = firebase.database().ref();
 
-    var childRef = rootRef.child('object');
+    let defaultApp = firebase.initializeApp(config);
+    let rootRef = firebase.database().ref();
+
+    let childRef = rootRef.child('object');
     const obj = document.getElementById("obj");
 
-    rootRef.on("value", function(snapshot) {
-        console.log(snapshot.val());
-        obj.innerText = JSON.stringify(snapshot.val());
-    }, function (error) {
+    rootRef.on("value", data => {
+        console.log(data.val());
+        obj.innerText = JSON.stringify(data.val());
+    }, error => {
         console.log("Error: " + error.code);
     });
 
