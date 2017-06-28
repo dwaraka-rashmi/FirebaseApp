@@ -7,8 +7,8 @@ The login page should integrate with a sample firebase application given below, 
 
 The email-password pair that you can use to test your login are:
 
-..* sample@gmail.com — 123456789 
-..* sample2@gmail.com — qwertyuiop
+1. sample@gmail.com — 123456789 
+2. sample2@gmail.com — qwertyuiop
 
 # Problem 2
 Create a simple HTML web page using NodeJS, ExpressJS and a template engine of your choice.
