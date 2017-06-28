@@ -1,6 +1,17 @@
 # FirebaseApp
 IoT Open Innovation Lab - FireBase App
 
+# Problem 1
+Create a simple login page using Node.js, ExpressJS and a template engine of your choice.
+The login page should integrate with a sample firebase application given below, and authenticate the user using email and password in the backend, i.e the sign-in process should get completed on the server side (in NodeJS) and not on the client side (using Javascript).
+The email-password pair that you can use to test your login are:
+. sample@gmail.com — 123456789 
+. sample2@gmail.com — qwertyuiop
+
+# Problem 2
+Create a simple HTML web page using NodeJS, ExpressJS and a template engine of your choice.
+The web page should display information stored in the database of the sample firebase application given below. The web page should also have a button that exports the displayed information to a pdf file.
+
 # Problem 3
 Create a python script that extracts the information from the database stored in the sample firebase application given below, and return the following in any format:
   1. The total number of users that have “1” in the count array
