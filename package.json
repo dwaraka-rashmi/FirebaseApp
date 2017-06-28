@@ -1,0 +1,19 @@
+{
+  "name": "firebaseapp",
+  "version": "1.0.0",
+  "description": "IoT FireBase App",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dwaraka-rashmi/FirebaseApp.git"
+  },
+  "author": "Rashmi Dwaraka",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dwaraka-rashmi/FirebaseApp/issues"
+  },
+  "homepage": "https://github.com/dwaraka-rashmi/FirebaseApp#readme"
+}
